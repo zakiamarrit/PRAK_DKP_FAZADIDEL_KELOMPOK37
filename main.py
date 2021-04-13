@@ -1,14 +1,13 @@
 #method
 from functions import Ac
 
-#variabel kondisi
-kondisi = input("On/Off")
-
 #perulangan while
 while True:
+    #variabel kondisi
+    kondisi = input("On/Off")
     
     #pengkondisian
-    if kondisi == "":
+    if kondisi == "On":  
         suhu = input("Masukkan suhu yang anda inginkan")
         Ac.ubah(suhu)
     elif kondisi == "Off":
