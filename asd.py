@@ -1,5 +1,5 @@
 #method
-from dsa import Ac
+from functions import Ac
 
 #variabel kondisi
 kondisi = input("On/Off")
