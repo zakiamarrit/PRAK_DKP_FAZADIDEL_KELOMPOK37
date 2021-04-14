@@ -16,7 +16,7 @@ while run:
         Ac.ubah(suhu)
         On = True
         while On:
-            kondisi = input("Ganti suhu / Tidak pelu ? ")
+            kondisi = input("Ganti suhu / Tidak perlu ? ")
             if kondisi == "Ganti suhu":
                 suhu = input("Masukkan suhu yang anda inginkan = ")
                 Ac.ubah(suhu)
