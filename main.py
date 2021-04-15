@@ -27,4 +27,4 @@ while run:
     elif kondisi == "Off":
         break
     else:
-        print("Anda salah memasukkan kondisi, mohon baca kembali perintah yang tertera")
+        print("Anda salah memasukkan kondisi, mohon baca kembali perintah yang tertera ya..")
